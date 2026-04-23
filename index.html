@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Movie Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Studio Movie Search</h1>
+
+    <div class="controls">
+      <button class="toggle-theme">🌙 Dark Mode</button>
+      <button class="show-all">🏠 All Movies</button>
+      <button class="show-favorites">⭐ Favorites</button>
+    </div>
+
+    <input
+      type="text"
+      class="search"
+      placeholder="Search movies, directors, or descriptions..."
+    />
+
+    <div class="movies"></div>
+
+    <div class="details hidden">
+      <div class="details-content">
+        <span class="close-details">&times;</span>
+        <div class="details-body"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
